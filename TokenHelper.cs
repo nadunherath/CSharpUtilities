@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace CSharpUtilities
 {
+
+    // Will help to generate token based on long value
+    // Can be used to to generate url like this which will map to Id in database http://localhost:2889/Token/Index/lv5z1lmEHyx
+
     public static class TokenHelper
     {
         private const string GuidChars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz-_";
