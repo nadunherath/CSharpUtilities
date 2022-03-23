@@ -18,6 +18,11 @@ namespace CSharpUtilities
 
             #endregion
 
+            #region MD5Core
+            var passHash =  MD5Core.GetHashString("password");
+
+            #endregion
+
 
         }
     }
